@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PopCommonLib"
+rootProject.name = "PopCommonUtil"
 include ':app'
 include ':lib'

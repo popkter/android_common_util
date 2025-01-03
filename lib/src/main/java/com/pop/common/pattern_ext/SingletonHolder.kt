@@ -1,4 +1,4 @@
-package com.pop.toolslib.pattern_ext
+package com.pop.common.pattern_ext
 
 /**
  * 有参的单例模式基类
