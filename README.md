@@ -1,6 +1,28 @@
 # Android Common Utils
 > 安卓通用工具，仅在Kotlin环境通过测试
 
+- how to use?
+
+```kotlin
+
+//in setting.gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        //add this
+        maven("https://jitpack.io" )
+        google()
+        mavenCentral()
+    }
+}
+
+//in build.gradle(module level)
+//use satisfied version
+implementation("com.github.popkter:android_common_util:0.15")
+
+```
+
+
 ## Global Application Context Provider
 > Application Context全局提供器
 
